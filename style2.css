@@ -1,0 +1,44 @@
+label{
+    display: block;
+    padding: 10px; 
+}
+
+#submit{
+    color:grey;
+   padding: 20px;
+}
+
+#submit:hover{
+    color: green;
+  
+}
+h1{
+    text-align: center;
+    background-image: linear-gradient(white,rgb(47, 177, 173));
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/grunge-watercolor-background-using-pastel-colours_1048-6530.jpg?size=626&ext=jpg);
+    background-size:cover;
+}
+.container{
+    background-color: rgb(226, 240, 240);
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #f0841f;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #c16161;
+      text-align: center;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }

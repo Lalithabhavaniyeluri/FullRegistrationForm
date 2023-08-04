@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1> <marquee>Enter your complete details for Registration</marquee></h1>
+    <div class="container">
+    <form>
+        <label for="birthday"><b>Birthday:</b></label>
+        <input type="date" id="birthday" name="birthday" required><br>
+        <label for="gender"><b>Gender</b></label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="Others">Others<br>
+        <label for="phone"><b>Phone number</b></label>
+        <input type="tel" name="phone" required><br>
+        <label for="branch"><b>Branch</b></label>
+        <select label="Branch" required>Branch
+            <option value=" ">select</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="it">IT</option>
+            <option value="mech">Mechanical</option>
+            <option value="civil">Civil</option>
+            <option value="aiml">AIML</option>
+        </select><br>
+
+            <label for="year"><b>Year of Study:</b></label>
+            <select id="year" name="year" required>
+              <option value="">Select Year</option>
+              <option value="1">First Year</option>
+              <option value="2">Second Year</option>
+              <option value="3">Third Year</option>
+              <option value="4">Fourth Year</option>
+            </select>  <br>
+        <label for="programming language" ><b>Programming Laguagues you know:</b></label><br>
+   
+        <input type="checkbox" name="programing language" value="C">C <br>
+        <input type="checkbox" name="programing language" value="Python">Python<br> 
+        <input type="checkbox" name="programing language" value="Java">Java<br>
+        <input type="checkbox" name="programing language" value="C++">C <br>
+    
+        <label for="Upload Resume"><b>Upload Your Resume</b></label>
+        <input type="file" name="file upload" accept=" "><br>
+        <label for="cgpa" ><b>Btech CGPA:</b></label>
+        <input type="float" name="cgpa" reuired><br>
+        <label for="cgpa" ><b>Intermediate CGPA:</b></label>
+        <input type="float" name="cgpa" required><br>
+        <label for="gpa" ><b>Student CGPA:</b></label>
+        <input type="float" name="gpa" required><br>
+        <label for="Address1" ><b>Address1:</b></label>
+        <input type="text" name="Address1" reuired><br>
+        <label for="Address2" ><b>Address2:</b></label>
+        <input type="text" name="Address2" reuired><br>
+        <div id="submit">
+            <input type="submit" value= "Register">
+        </div>
+    </form>
+</div>
+    
+</body>
+</html>

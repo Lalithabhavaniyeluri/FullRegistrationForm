@@ -1,0 +1,22 @@
+body{
+    background-image:url(https://img.freepik.com/free-vector/ginkgo-leaf-frame-design-colorful-background_53876-120237.jpg?size=626&ext=jpg) ;
+    background-size:cover ;
+}
+label{
+    display: block;
+    padding: 10px;
+}
+form{
+    text-align: center;
+    background-color: rgb(207, 194, 178);
+    margin: 0px 550px 0px 550px;
+}
+h1{
+    text-align: center;
+    background-color: brown,red;
+    margin: 0px 550px 0px 550px;
+}
+#submit{
+    color: blanchedalmond;
+   padding: 20px;
+}
